@@ -1,4 +1,4 @@
-nname: Print Number Workflow
+name: Print Number Workflow
 
 on: [push]
 
