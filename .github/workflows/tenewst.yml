@@ -1,0 +1,11 @@
+nname: Print Number Workflow
+
+on: [push]
+
+jobs:
+  print-number:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print 10
+        run: echo "The number is 10"
